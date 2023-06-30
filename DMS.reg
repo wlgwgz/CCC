@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\DMS.Application = DMS Application
+HKEY_CLASSES_ROOT\DMS.Application\CLSID = {0B38DA47-D883-4900-AAEE-208EB41D0695}
+
+HKEY_CLASSES_ROOT\CLSID\{0B38DA47-D883-4900-AAEE-208EB41D0695} = DMS Application
+HKEY_CLASSES_ROOT\CLSID\{0B38DA47-D883-4900-AAEE-208EB41D0695}\ProgId = DMS.Application
+HKEY_CLASSES_ROOT\CLSID\{0B38DA47-D883-4900-AAEE-208EB41D0695}\LocalServer32 = DMS.EXE

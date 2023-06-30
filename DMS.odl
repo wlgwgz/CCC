@@ -1,0 +1,42 @@
+// DMS.odl : type library source for DMS.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (DMS.tlb).
+
+[ uuid(D6E99B16-CB24-49DE-BBDA-2AE5695273FF), version(1.0) ]
+library DMS
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CDMSDoc
+	
+	[ uuid(081EFDD7-5C34-4188-942F-52C8E73314B2) ]
+	dispinterface IDMS
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CDMSDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CDMSDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CDMSDoc
+	
+	[ uuid(0B38DA47-D883-4900-AAEE-208EB41D0695) ]
+	coclass DMS
+	{
+		[default] dispinterface IDMS;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
