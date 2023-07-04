@@ -1,0 +1,2 @@
+①保证此目录只有一个sct
+②将.\MDK_ARM\linker中的sct文件移至“备用sct”文件夹中，将需要的sct文件从“备用sct.zip”中复制到.\MDK_ARM\linker。

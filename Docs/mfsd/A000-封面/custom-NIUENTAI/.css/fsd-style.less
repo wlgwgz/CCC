@@ -1,0 +1,517 @@
+* {
+  font-family: 宋体;
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  line-height: 1.6;
+}
+
+body {
+  counter-reset: h2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+
+h2 {
+  counter-increment: h2;
+  counter-reset: h3;
+  font-size: 1.75em;
+  line-height: 1.225;
+}
+
+h3 {
+  counter-reset: h4;
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+h4 {
+  counter-reset: h5;
+}
+
+h5 {
+  counter-reset: h6;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-image: url("file:///C:/PunpTools/assets/watermark_credential.png");
+  background-position: center;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* 从二级标题开始自动编号 */
+h2:before {
+  content: counter(h2) " ";
+}
+
+h3:before {
+  counter-increment: h3;
+  content: counter(h2) "." counter(h3) " ";
+}
+
+h4:before {
+  counter-increment: h4;
+  content: counter(h2) "." counter(h3) "." counter(h4) " ";
+}
+
+h5:before {
+  counter-increment: h5;
+  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+}
+
+h6:before {
+    counter-increment: h6;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+}
+
+table {
+  padding: 0;
+  word-break: initial;
+}
+table tr {
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 0;
+}
+thead {
+  background-color: #f8f8f8;
+}
+table th {
+  font-weight: bold;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+  margin: 0;
+  padding: 6px 13px;
+}
+table td {
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+  margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+  margin-bottom: 0;
+}
+
+code,
+tt {
+  border: 1px solid #e7eaed;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  padding: 0;
+  padding: 2px 4px 0px 4px;
+  font-size: 0.9em;
+}
+
+code {
+  background-color: #f3f4f4;
+  padding: 0 2px 0 2px;
+}
+
+img[src*="#large"] {
+  display: block;
+  width: 80%;
+  border: 1px solid #eee;
+}
+
+img[src*="#medium"] {
+  display: block;
+  width: 70%;
+  border: 1px solid #eee;
+}
+
+/* 打印样式 */
+@media print {
+  html {
+    font-size: 13px;
+  }
+  table {
+    // page-break-inside: avoid;
+    width: 100%;
+    table-layout: fixed;
+  }
+  thead {
+    display: table-header-group;
+  }
+  pre {
+    page-break-inside: avoid;
+  }
+  pre {
+    word-wrap: break-word;
+  }
+}
+
+/* 封面样式 */
+.cover-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 270mm;
+}
+.cover-top {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid #ff00ff; */
+}
+.product-name {
+  font-size: 32pt;
+  font-weight: bold;
+  margin-left: 5mm;
+  margin-top: 15mm;
+}
+.cover-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80mm;
+  /* border: 1px solid #f00f0f; */
+}
+.doc-type {
+  font-size: 52pt;
+  font-weight: bold;
+}
+.credential-info {
+  font-size: 16pt;
+  margin-top: -5mm;
+  margin-left: 60mm;
+}
+.cover-bottom {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #f00f0f; */
+}
+.company-name {
+  font-size: 16pt;
+}
+
+/* 目录标题样式 */
+#toc-title {
+  font-size: 1.75em;
+  font-weight: 600;
+  padding-bottom: 0.3em;
+}
+
+/* 目录样式（MPE-0.6.8） */
+div.md-toc {
+  color: #333333;
+  font-weight: bold;
+  counter-reset: ul1;
+}
+
+.md-toc-link-wrapper {
+  list-style: none !important;
+}
+
+div.md-toc details > div > div.md-toc-link-wrapper {
+  margin-left: 24px !important;
+}
+
+div.md-toc > div.md-toc-link-wrapper {
+  margin-left: 0px !important;
+}
+
+div.md-toc > div.md-toc-link-wrapper,
+div.md-toc > details > summary.md-toc-link-wrapper {
+  counter-increment: ul1;
+  counter-reset: ul2;
+}
+
+div.md-toc > details > div > div.md-toc-link-wrapper,
+div.md-toc > details > div > details > summary.md-toc-link-wrapper {
+  counter-increment: ul2;
+  counter-reset: ul3;
+}
+
+div.md-toc > details > div > details > div > div.md-toc-link-wrapper,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper {
+  counter-increment: ul3;
+  counter-reset: ul4;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper {
+  counter-increment: ul4;
+  counter-reset: ul5;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper {
+  counter-increment: ul5;
+  counter-reset: ul6;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper {
+  counter-increment: ul6;
+}
+
+div.md-toc > div.md-toc-link-wrapper::before,
+div.md-toc > details > summary.md-toc-link-wrapper::before {
+  content: counter(ul1);
+  counter-reset: ul2;
+}
+
+div.md-toc > details > div > div.md-toc-link-wrapper::before,
+div.md-toc > details > div > details > summary.md-toc-link-wrapper::before {
+  content: counter(ul1) "." counter(ul2);
+  counter-reset: ul3;
+}
+
+div.md-toc > details > div > details > div > div.md-toc-link-wrapper::before,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3);
+  counter-reset: ul4;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper::before,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4);
+  counter-reset: ul5;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper::before,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4) "."
+    counter(ul5);
+  counter-reset: ul6;
+}
+
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > div.md-toc-link-wrapper::before,
+div.md-toc
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > div
+  > details
+  > summary.md-toc-link-wrapper::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4) "."
+    counter(ul5) "." counter(ul6);
+}
+
+/* 目录样式（MPE-0.6.5） */
+ul#toc-only {
+  list-style: none;
+  color: #333333;
+  font-weight: bold;
+}
+ul#toc-only li a {
+  text-decoration: none;
+  color: #333333;
+}
+ul#toc-only ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+ul#toc-only {
+  counter-reset: ul1;
+}
+ul#toc-only ul {
+  list-style: none;
+  counter-reset: ul2;
+}
+ul#toc-only ul ul {
+  counter-reset: ul3;
+}
+ul#toc-only ul ul ul {
+  counter-reset: ul4;
+}
+ul#toc-only ul ul ul ul {
+  counter-reset: ul5;
+}
+ul#toc-only ul ul ul ul ul {
+  counter-reset: ul6;
+}
+ul#toc-only > li {
+  counter-increment: ul1;
+}
+ul#toc-only li li {
+  counter-increment: ul2;
+}
+ul#toc-only li li li {
+  counter-increment: ul3;
+}
+ul#toc-only li li li li {
+  counter-increment: ul4;
+}
+ul#toc-only li li li li li {
+  counter-increment: ul5;
+}
+ul#toc-only li li li li li li {
+  counter-increment: ul6;
+}
+ul#toc-only li::before {
+  content: counter(ul1);
+  color: #333333;
+  margin-right: 0.5em;
+}
+ul#toc-only li li::before {
+  content: counter(ul1) "." counter(ul2);
+  color: #333333;
+  margin-right: 0.5em;
+}
+ul#toc-only li li li::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3);
+  color: #333333;
+  margin-right: 0.5em;
+}
+ul#toc-only li li li li::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4);
+  color: #333333;
+  margin-right: 0.5em;
+}
+ul#toc-only li li li li li::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4) "."
+    counter(ul5);
+  color: #333333;
+  margin-right: 0.5em;
+}
+ul#toc-only li li li li li li::before {
+  content: counter(ul1) "." counter(ul2) "." counter(ul3) "." counter(ul4) "."
+    counter(ul5) "." counter(ul6);
+  color: #333333;
+  margin-right: 0.5em;
+}

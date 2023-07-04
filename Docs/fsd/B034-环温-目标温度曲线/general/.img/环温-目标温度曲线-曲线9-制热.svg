@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 11.0, SVG Export, v1.0 生成 环温-目标温度曲线-曲线9-制热.svg 环温-目标 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.4887in" height="2.64227in"
+		viewBox="0 0 323.186 190.244" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st2 {marker-end:url(#mrkr1-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st4 {fill:none;marker-end:url(#mrkr1-12);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st6 {fill:#000000;font-family:Arial;font-size:0.666664em}
+		.st7 {font-family:Arial Unicode MS;font-size:1em}
+		.st8 {marker-end:url(#mrkr4-20);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {stroke:#000000;stroke-dasharray:1.68,1.2;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st11 {font-size:1em}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend1">
+			<path d="M 1 -1 L 0 0 L 1 1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr1-8" class="st3" v:arrowType="1" v:arrowSize="2" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend1" transform="scale(-11.5,-11.5) "/>
+		</marker>
+		<marker id="mrkr1-12" class="st5" v:arrowType="1" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(-4.5,-4.5) "/>
+		</marker>
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-20" class="st3" v:arrowType="4" v:arrowSize="2" v:setback="23" refX="-23" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-11.5,-11.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="1" v:groupContext="backgroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>背景-1</title>
+		<v:pageProperties width="4.4887" height="2.64227" v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24"
+				v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>实心</title>
+			<v:userDefs>
+				<v:ud v:nameU="Background" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="323.186" height="190.244" class="st1"/>
+		</g>
+	</g>
+	<g v:mID="5" v:index="3" v:groupContext="foregroundPage">
+		<title>环温-目标温度曲线-曲线9-制热</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" transform="translate(52.8481,-39.4661)">
+			<title>工作表.1</title>
+			<path d="M0 190.24 L223.79 190.24" class="st2"/>
+		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(246.746,-23.3434)">
+			<title>工作表.2</title>
+			<desc>TA / ℃</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.9291" cy="182.244" width="53.86" height="16"/>
+			<rect x="0" y="174.244" width="53.8583" height="16" class="st4"/>
+			<text x="14.4" y="184.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>TA / <tspan
+						class="st7">℃</tspan></text>		</g>
+		<g id="shape3-15" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(74.9403,-24.1715)">
+			<title>动态连接线</title>
+			<path d="M7.09 190.24 L7.09 56.12" class="st8"/>
+		</g>
+		<g id="shape4-21" v:mID="4" v:groupContext="shape" transform="translate(82.027,-129.394)">
+			<title>工作表.4</title>
+			<path d="M0 190.24 L53.94 190.24" class="st9"/>
+		</g>
+		<g id="shape5-24" v:mID="5" v:groupContext="shape" transform="translate(199.747,-78.3701)">
+			<title>工作表.5</title>
+			<path d="M0 190.24 L56.69 190.24" class="st9"/>
+		</g>
+		<g id="shape6-27" v:mID="6" v:groupContext="shape" transform="translate(254.812,-87.7055) rotate(38.6598)">
+			<title>工作表.6</title>
+			<path d="M0 190.24 L81.68 190.24" class="st9"/>
+		</g>
+		<g id="shape7-30" v:mID="7" v:groupContext="shape" transform="translate(82.027,-78.3701)">
+			<title>工作表.7</title>
+			<path d="M0 190.24 L117.72 190.24" class="st10"/>
+		</g>
+		<g id="shape8-33" v:mID="8" v:groupContext="shape" transform="translate(9.50387,150.777) rotate(-90)">
+			<title>工作表.8</title>
+			<path d="M0 190.24 L38.9 190.24" class="st10"/>
+		</g>
+		<g id="shape9-36" v:mID="9" v:groupContext="shape" transform="translate(22.5821,-151.661)">
+			<title>工作表.9</title>
+			<desc>ThS_A’ (ThS_B’) / ℃</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="182.244" width="60.95" height="16"/>
+			<rect x="0" y="174.244" width="60.9449" height="16" class="st4"/>
+			<text x="17.36" y="180.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>ThS_A<tspan
+						class="st7">’</tspan> <tspan x="7.27" dy="1em" class="st11">(</tspan>ThS_B<tspan class="st7">’</tspan>) / <tspan
+						class="st7">℃</tspan></text>		</g>
+		<g id="shape10-44" v:mID="10" v:groupContext="shape" transform="translate(-54.2757,150.777) rotate(-90)">
+			<title>工作表.10</title>
+			<path d="M0 190.24 L89.93 190.24" class="st10"/>
+		</g>
+		<g id="shape11-47" v:mID="11" v:groupContext="shape" transform="translate(31.086,-120.89)">
+			<title>工作表.11</title>
+			<desc>ThS_start</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="182.244" width="60.95" height="16"/>
+			<rect x="0" y="174.244" width="60.9449" height="16" class="st4"/>
+			<text x="13.13" y="184.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>ThS_start</text>		</g>
+		<g id="shape12-51" v:mID="12" v:groupContext="shape" transform="translate(31.7947,-70.8741)">
+			<title>工作表.12</title>
+			<desc>ThS_end</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="182.244" width="60.95" height="16"/>
+			<rect x="0" y="174.244" width="60.9449" height="16" class="st4"/>
+			<text x="14.24" y="184.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>ThS_end</text>		</g>
+		<g id="shape13-55" v:mID="13" v:groupContext="shape" transform="translate(105.495,-23.7881)">
+			<title>工作表.13</title>
+			<desc>TA_ht_min</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="182.244" width="60.95" height="16"/>
+			<rect x="0" y="174.244" width="60.9449" height="16" class="st4"/>
+			<text x="11.13" y="184.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>TA_ht_min</text>		</g>
+		<g id="shape14-59" v:mID="14" v:groupContext="shape" transform="translate(169.275,-23.7881)">
+			<title>工作表.14</title>
+			<desc>TA_ht_max</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="182.244" width="60.95" height="16"/>
+			<rect x="0" y="174.244" width="60.9449" height="16" class="st4"/>
+			<text x="10.02" y="184.24" class="st6" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>TA_ht_max</text>		</g>
+	</g>
+</svg>

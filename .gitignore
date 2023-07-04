@@ -1,0 +1,21 @@
+# 忽略以下文件
+*.d
+*.o
+*.uvguix.*
+
+# 忽略以下文件夹
+Chip/*.hex
+MDK_ARM/lst
+MDK_ARM/obj
+PJ
+Docs/fsd/__OUTPUT_TMP__
+
+# 忽略以下文件内的特定文件
+MDK_ARM/JLinkLog.txt
+MDK_ARM/*.bin
+MDK_ARM/*.hex
+MDK_ARM/*.uvopt
+MDK_ARM/*.uvoptx
+MDK_ARM/*.uvprojx
+Tool/CompileEnvStd/*.hex
+Tool/CompileEnvStd/*.plcx

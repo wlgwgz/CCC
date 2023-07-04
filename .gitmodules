@@ -1,0 +1,4 @@
+[submodule "Code/User/APP/CTRL/cbb-exio-klv"]
+	path = Code/User/APP/CTRL/cbb-exio-klv
+	url = git@192.168.0.251:hvac-group/hvac-cbb/cbb-exio-klv.git
+	branch = main

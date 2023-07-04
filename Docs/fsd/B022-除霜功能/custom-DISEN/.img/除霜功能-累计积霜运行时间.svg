@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 11.0, SVG Export, v1.0 生成 除霜功能-累计积霜运行时间.svg 累计积霜运行时间 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.47761in" height="2.72201in"
+		viewBox="0 0 394.388 195.985" xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st2 {marker-end:url(#mrkr4-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st5 {fill:#000000;font-family:Arial;font-size:0.833336em}
+		.st6 {font-size:1em}
+		.st7 {font-family:Arial Unicode MS;font-size:1.04999em}
+		.st8 {stroke:#000000;stroke-dasharray:1.68,1.2;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {fill:#ffffff}
+		.st11 {marker-end:url(#mrkr13-44);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.11764705882353}
+		.st13 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st14 {fill:#000000;font-family:Arial;font-size:0.666664em}
+		.st15 {fill:url(#ptrn2-54);shape-rendering:crispEdges;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st16 {fill:url(#ptrn2-58);shape-rendering:crispEdges;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st17 {marker-start:url(#mrkr5-76);stroke:#000000;stroke-dasharray:1.68,1.2;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st18 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st19 {marker-end:url(#mrkr4-8);stroke:#000000;stroke-dasharray:1.68,1.2;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<pattern id="ptrn2-54" v:fillPattern="2" v:foreground="#000000" v:foregroundOpacity="0.4" v:background="#ffffff"
+				v:backgroundOpacity="0.4" patternUnits="userSpaceOnUse" width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAA8SURBVChTY9i3b1/a////MTBIXEREJI0BnySIxlCALAnioyhAl0RRgE0SrgCXJFgBPkmwAnyS+/btSwMATO62ic3I1HMAAAAASUVORK5CYII="/>
+		</pattern>
+		<pattern id="ptrn2-58" v:fillPattern="2" v:foreground="#000000" v:foregroundOpacity="0.6" v:background="#ffffff"
+				v:backgroundOpacity="0.6" patternUnits="userSpaceOnUse" width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAA8SURBVChTY9i/f/+Mf//+YWCQuKio6AwGfJIgGkMBsiSIj6IAXRJFATZJuAJckmAF+CTBCvBJ7t+/fwYAk7DC2T5JvwUAAAAASUVORK5CYII="/>
+		</pattern>
+	</defs>
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-8" class="st3" v:arrowType="4" v:arrowSize="2" v:setback="23" refX="-23" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-11.5,-11.5) "/>
+		</marker>
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-44" class="st12" v:arrowType="13" v:arrowSize="1" v:setback="25.5" refX="-25.5" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-8.5,-8.5) "/>
+		</marker>
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-76" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="18.625" refX="18.625" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(11.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="1" v:groupContext="backgroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>背景-1</title>
+		<v:pageProperties width="5.47761" height="2.72201" v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24"
+				v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>实心</title>
+			<v:userDefs>
+				<v:ud v:nameU="Background" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="394.388" height="195.985" class="st1"/>
+		</g>
+	</g>
+	<g v:mID="6" v:index="4" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+			<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+			<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>除霜功能-累计积霜运行时间</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="尺寸" v:index="0"/>
+		<v:layer v:name="流程图" v:index="1"/>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" transform="translate(58.405,-71.4457)">
+			<title>动态连接线</title>
+			<path d="M0 188.9 L306.29 188.9" class="st2"/>
+		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(51.3184,-36.0126)">
+			<title>动态连接线.26</title>
+			<path d="M7.09 195.98 L7.09 73.95" class="st2"/>
+		</g>
+		<g id="shape3-14" v:mID="3" v:groupContext="shape" transform="translate(20.846,-149.398)">
+			<title>工作表.3</title>
+			<desc>T / ℃</desc>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.8819" cy="188.617" width="29.77" height="14.7361"/>
+			<rect x="0" y="181.249" width="29.7638" height="14.7361" class="st4"/>
+			<text x="0.2em 0.811em" y="191.24" class="st5" v:langID="2052"><v:paragraph v:spLine="-1" v:horizAlign="3"/><v:tabList/>T <tspan
+						x="1.089em 1.367em" dy="0em" class="st6">/ </tspan><tspan x="1.566em" dy="0em" class="st7" v:langID="1033">℃</tspan></text>		</g>
+		<g id="shape4-19" v:mID="4" v:groupContext="shape" transform="translate(44.2318,-72.5323)">
+			<title>工作表.4</title>
+			<desc>0</desc>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="189.985" width="14.18" height="12"/>
+			<rect x="0" y="183.985" width="14.1732" height="12" class="st4"/>
+			<text x="4.31" y="192.98" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape5-22" v:mID="5" v:groupContext="shape" transform="translate(58.405,-128.139)">
+			<title>动态连接线.29</title>
+			<path d="M0 188.9 L297.64 188.9" class="st8"/>
+		</g>
+		<g id="shape6-25" v:mID="6" v:groupContext="shape" transform="translate(27.2239,-129.391)">
+			<title>工作表.6</title>
+			<desc>End T</desc>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.5906" cy="190.15" width="31.19" height="11.6693"/>
+			<rect x="0" y="184.316" width="31.1811" height="11.6693" class="st4"/>
+			<text x="2.25" y="193.15" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>End T</text>		</g>
+		<g id="shape7-28" v:mID="7" v:groupContext="shape" transform="translate(58.405,-57.2724)">
+			<title>动态连接线.31</title>
+			<path d="M0 188.9 L297.64 188.9" class="st8"/>
+		</g>
+		<g id="shape8-31" v:mID="8" v:groupContext="shape" transform="translate(18.72,-57.2724)">
+			<title>工作表.8</title>
+			<desc>Start T</desc>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="188.898" width="39.69" height="14.1732"/>
+			<rect x="0" y="181.812" width="39.685" height="14.1732" class="st4"/>
+			<text x="4.84" y="191.9" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Start T</text>		</g>
+		<g id="group9-34" transform="translate(58.405,-57.6601)" v:mID="9" v:groupContext="group">
+			<title>工作表.9</title>
+			<g id="shape9-35" v:mID="9" v:groupContext="groupContent">
+				<path d="M0 127.33 C4.4 122.36 8.65 113.86 12.87 113.93 C22.83 115.49 22.01 132.51 24.79 142.33 C26.88 149.71 31.01
+							 153.01 33.76 156.72 C36.55 160.48 37.93 164.65 39.86 169.76 C41.15 173.19 42.7 177.04 46.89 179.33 C51.19
+							 181.67 58.27 182.36 65.02 174.95 C81.14 160.73 90.4 165.25 94.63 168.96 C97.91 171.84 98.16 174.24 100.49
+							 177.32 C103.27 180.99 109 185.62 117.85 191.17 C123.2 194.53 129.69 198.22 136.02 200.98 C148.12 206.24
+							 159.63 208.06 173.68 202.5 C184.57 198.19 196.98 189.45 204.86 182.34 C211.46 176.37 214.87 171.56 217.78
+							 166.88 C224.21 156.54 228.19 146.86 231.84 138.72 C235.56 130.44 238.94 123.74 242 115.11 C245.89 104.15
+							 249.25 90.08 255.73 98.58" class="st9"/>
+			</g>
+		</g>
+		<g id="shape10-38" v:mID="10" v:groupContext="shape" v:layerMember="0" transform="translate(157.618,-62.9417)">
+			<title>水平</title>
+			<desc>TM</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:prompt="选择尺寸的显示精度。" v:type="1" v:format="0;0.0;0.00;0.000;0.0000"
+						v:invis="false" v:langID="2052" v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:prompt="选择尺寸的单位。" v:type="1"
+						v:format=" 使用绘图页的单位;-英尺-英寸 (1&#39;-0&#34;);-英尺 (1.00&#39;);-英寸;-英尺 (1.00ft);-英里;.毫米;.厘米;.米;.千米"
+						v:invis="false" v:langID="2052" v:val="VT4( 使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:prompt="选择是否显示单位缩写。" v:type="1" v:format="不显示单位;显示单位" v:invis="false"
+						v:langID="2052" v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:prompt="选择可见的延长线。" v:type="1" v:format="显示两者;仅终点;仅起点;两者均不显示"
+						v:invis="true" v:langID="2052" v:val="VT4(显示两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:prompt="选择尺寸线旋转的角度。" v:type="2" v:invis="false" v:langID="2052"
+						v:val="VT0(0):32"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(20.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.78740157480315):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4( 使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.78740157480315):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(-0.088582677165356):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.1546" cy="151.384" width="13.78" height="9.60356"/>
+			<path d="M0 149.72 L0 191.98 L0 149.72 ZM56.69 149.72 L56.69 198.36 L56.69 149.72 Z" class="st10"/>
+			<path d="M0 149.72 L0 191.98 L0 149.72" class="st9"/>
+			<path d="M56.69 149.72 L56.69 198.36 L56.69 149.72" class="st9"/>
+			<path d="M28.35 157.72 L6.12 157.72" class="st11"/>
+			<path d="M28.35 157.72 L50.57 157.72" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="24.3791" y="146.585" width="11.5508" height="9.59985" class="st13"/>
+			<text x="24.38" y="153.78" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>TM</text>		</g>
+		<g id="shape11-51" v:mID="11" v:groupContext="shape" v:layerMember="1" transform="translate(100.925,-64.3591)">
+			<title>进程</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<rect x="0" y="181.812" width="22.6772" height="14.1732" class="st15"/>
+		</g>
+		<g id="shape12-55" v:mID="12" v:groupContext="shape" v:layerMember="1" transform="translate(157.618,-47.3512)">
+			<title>进程.36</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<rect x="0" y="164.804" width="56.6929" height="31.1811" class="st16"/>
+		</g>
+		<g id="shape13-59" v:mID="13" v:groupContext="shape" v:layerMember="0" transform="translate(214.311,-62.9417)">
+			<title>水平.37</title>
+			<desc>defrost</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:prompt="选择尺寸的显示精度。" v:type="1" v:format="0;0.0;0.00;0.000;0.0000"
+						v:invis="false" v:langID="2052" v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:prompt="选择尺寸的单位。" v:type="1"
+						v:format=" 使用绘图页的单位;-英尺-英寸 (1&#39;-0&#34;);-英尺 (1.00&#39;);-英寸;-英尺 (1.00ft);-英里;.毫米;.厘米;.米;.千米"
+						v:invis="false" v:langID="2052" v:val="VT4( 使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:prompt="选择是否显示单位缩写。" v:type="1" v:format="不显示单位;显示单位" v:invis="false"
+						v:langID="2052" v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:prompt="选择可见的延长线。" v:type="1" v:format="显示两者;仅终点;仅起点;两者均不显示"
+						v:invis="true" v:langID="2052" v:val="VT4(显示两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:prompt="选择尺寸线旋转的角度。" v:type="2" v:invis="false" v:langID="2052"
+						v:val="VT0(0):32"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(29.99)"/>
+				<v:ud v:nameU="Length" v:val="VT0(1.1808687412176):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4( 使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(1.1808687412176):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(1.0092753703006):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.223" cy="91.8569" width="26.69" height="9.60356"/>
+			<path d="M0 90.19 L0 191.98 L0 90.19 ZM85.02 90.19 L85.02 119.32 L85.02 90.19 Z" class="st10"/>
+			<path d="M0 90.19 L0 191.98 L0 90.19" class="st9"/>
+			<path d="M85.02 90.19 L85.02 119.32 L85.02 90.19" class="st9"/>
+			<path d="M42.51 98.19 L6.12 98.19" class="st11"/>
+			<path d="M42.51 98.19 L78.9 98.19" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="32.9943" y="87.057" width="24.4569" height="9.59985" class="st13"/>
+			<text x="32.99" y="94.26" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>defrost</text>		</g>
+		<g id="shape14-71" v:mID="14" v:groupContext="shape" transform="translate(64.407,-134.685)">
+			<title>动态连接线.38</title>
+			<path d="M0.33 191.51 L0.33 191.15 L0.33 190.67 L8.53 190.67 L8.53 162.85 L13.84 162.85" class="st17"/>
+		</g>
+		<g id="shape15-77" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(78.2476,-157.902)">
+			<title>进程.39</title>
+			<desc>Defrost end</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.0079" cy="186.064" width="34.02" height="19.8425"/>
+			<rect x="0" y="176.142" width="34.0157" height="19.8425" class="st18"/>
+			<text x="2" y="183.66" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Defrost<v:newlineChar/><tspan x="2"
+						dy="1.2em" class="st6">end</tspan></text>		</g>
+		<g id="shape16-81" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(265.334,333.28) scale(1,-1)">
+			<title>进程.41</title>
+			<desc>Defrost start</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.0079" cy="184.646" width="34.02" height="22.6772"/>
+			<rect x="0" y="173.308" width="34.0157" height="22.6772" class="st18"/>
+			<text x="2" y="-187.05" transform="scale(1,-1)" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Defrost<v:newlineChar/><tspan
+						x="2" dy="1.2em" class="st6">start</tspan></text>		</g>
+		<g id="shape17-85" v:mID="17" v:groupContext="shape" transform="translate(214.311,-48.7685)">
+			<title>动态连接线.40</title>
+			<path d="M0 201.87 L0 202.23 L0 217.95 L68.03 217.95 L68.03 208.74" class="st17"/>
+		</g>
+		<g id="shape18-90" v:mID="18" v:groupContext="shape" transform="translate(144.896,-88.4254)">
+			<title>动态连接线.42</title>
+			<path d="M-1.38 191.51 L-1.38 191.15 L-1.38 170.44 L-12.79 170.44" class="st17"/>
+		</g>
+		<g id="shape19-95" v:mID="19" v:groupContext="shape" v:layerMember="1" transform="translate(95.2554,-106.879)">
+			<title>进程.43</title>
+			<desc>Time = 0</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4252" cy="188.898" width="36.86" height="14.1732"/>
+			<rect x="0" y="181.812" width="36.8504" height="14.1732" class="st18"/>
+			<text x="2" y="191.3" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Time = 0</text>		</g>
+		<g id="shape20-98" v:mID="20" v:groupContext="shape" transform="translate(115.098,-64.3591)">
+			<title>动态连接线.44</title>
+			<path d="M-2.83 200.45 L-2.83 200.81 L-2.83 226.46 L-11.34 226.46" class="st17"/>
+		</g>
+		<g id="shape21-103" v:mID="21" v:groupContext="shape" v:layerMember="1" transform="translate(58.405,-21.8394)">
+			<title>进程.45</title>
+			<desc>Time cumulates</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="输入与该进程相关联的成本。" v:type="7" v:format="@" v:langID="2052"/>
+				<v:cp v:nameU="Duration" v:lbl="持续时间" v:prompt="输入此步骤的持续时间。" v:type="2" v:langID="2052"/>
+				<v:cp v:nameU="Resources" v:lbl="资源" v:prompt="输入完成此项任务所需的人数。" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.6772" cy="183.938" width="45.36" height="24.0945"/>
+			<rect x="0" y="171.89" width="45.3543" height="24.0945" class="st18"/>
+			<text x="2" y="181.54" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Time <tspan x="2" dy="1.2em" class="st6">cumulates</tspan></text>		</g>
+		<g id="shape22-107" v:mID="22" v:groupContext="shape" transform="translate(103.759,-33.5323)">
+			<title>动态连接线.46</title>
+			<path d="M0 195.63 L82.2 195.63 L82.2 187.69" class="st19"/>
+		</g>
+	</g>
+</svg>
